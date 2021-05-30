@@ -1,0 +1,46 @@
+<div class="div-3">
+		
+		<div class="pictures">
+			<img class="picture-1" [src]="company[0].companyInfo[0].images[0].src" [alt]="company[0].companyInfo[0].images[0].alt">
+			<img class="picture-2" [src]="company[0].companyInfo[0].images[1].src" [alt]="company[0].companyInfo[0].images[1].src">
+		</div>
+
+		<div class="ocene">	
+			{{company[0].companyInfo[0].totalRating}}
+			<fa-icon [icon]="faStar"></fa-icon>
+			<fa-icon [icon]="faStar"></fa-icon>
+      		<fa-icon [icon]="faStar"></fa-icon>
+      		<fa-icon [icon]="faStar"></fa-icon>
+      		<fa-icon [icon]="faStar"></fa-icon>
+			<a href="https://www.google.com/search?gs_ssp=eJzj4tVP1zc0TDcwqMzKrTIzYLRSNagwMTc1NzBINUs1TzEAsgytgEJGaYbJJqkW5uYWKWmGaaZeEkWpxSX5RYl5ClWpealliQrZRYk5Wall-QCCHBhT&q=restoran+zeneva+kraljevo&oq=restoran+zene&aqs=chrome.1.69i57j46i175i199l2j0i22i30l4j0i10i22i30j0i22i30.4639j1j9&sourceid=chrome&ie=UTF-8">
+				{{company[0].companyInfo[0].numberUserRating}} Google reviews</a>
+		</div>
+
+		<div class="title">
+			<h3>{{company[0].companyInfo[0].companyName}}</h3>
+		</div>
+
+		<div class="row">
+			<div class="col">
+				<div class="info">
+					<ul class="navbar-nav">
+						<li class="list-item"><a href="https://www.google.com/search?sxsrf=ALeKk03g_VaxpQh9B4hZ8k-d5vZ5mGzJQA:1621247373442&q=restoran+geneve+kraljevo+address&stick=H4sIAAAAAAAAAOPgE-LVT9c3NEw3MKjMyq0y05LNTrbSz8lPTizJzM-DM6wSU1KKUouLF7EqAKmS_KLEPIX01LzUslSF7KLEnKzUsnwFqBIADSBvllMAAAA&ludocid=4823853178607759861&sa=X&ved=2ahUKEwinnqWOwdDwAhXCCOwKHVSxArEQ6BMwFnoECCcQBA&biw=1536&bih=698&dpr=1.25">
+							<b>Address: </b></a>{{company[0].companyInfo[0].address}}</li>
+						<li class="list-item"><a href="https://www.google.com/search?sa=X&sxsrf=ALeKk01iOGakDpemneaS0cCNi4lmUqXMEg:1621249744907&q=restoran+geneve+kraljevo+phone&ludocid=4823853178607759861&ved=2ahUKEwjbm4z5ydDwAhUOPOwKHfCzBV4Q6BMwGnoECBcQAg&biw=1536&bih=698">
+							<b>Phone: </b></a>{{company[0].companyInfo[0].phone}}</li>
+							<a href="#" class="phone btn btn-success"><li><fa-icon class="icon" [icon]="faPhoneAlt"></fa-icon><span class="phone-text">Call</span></li></a>
+					</ul>
+				</div>
+			</div>
+			<div class="col">
+				<ul class="navbar-nav social-nets">
+					<a [href]="company[0].companyInfo[0].instagram[0].href" [title]="company[0].companyInfo[0].instagram[0].title" class="list-item list-item-2"><li><fa-icon class="social-icon" [icon]="faInstagramSquare"></fa-icon><span class="social-text">{{company[0].companyInfo[0].instagram[0].text}}</span></li></a>
+					<a [href]="company[0].companyInfo[0].facebook[0].href" [title]="company[0].companyInfo[0].facebook[0].title" class="list-item list-item-2"><li><fa-icon class="social-icon" [icon]="faFacebookSquare"></fa-icon><span class="social-text">{{company[0].companyInfo[0].facebook[0].text}}</span></li></a>
+					<a [href]="company[0].companyInfo[0].website[0].href" [title]="company[0].companyInfo[0].website[0].title" class="list-item list-item-2"><li><fa-icon class="social-icon" [icon]="faInternetExplorer"></fa-icon><span class="social-text">{{company[0].companyInfo[0].website[0].text}}</span></li></a>
+				</ul>
+			</div>
+		</div>
+
+
+
+	</div>

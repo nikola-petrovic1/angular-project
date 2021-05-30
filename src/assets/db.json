@@ -1,0 +1,133 @@
+{
+  "companies": [
+    {
+      "companyInfo": [
+        {
+          "images": [
+            {
+              "src": "assets/img/restoran-2.jpg",
+              "alt": "Restoraunt picture"
+            },
+            {
+              "src": "assets/img/restoran-1.jpg",
+              "alt": "Food picture"
+            }
+          ],
+          "totalRating": 4.6,
+          "numberUserRating": 511,
+          "companyName": "Zeneva",
+          "address": "Karađorđeva 51, Kraljevo 36000",
+          "phone": "036 340040",
+          "instagram": [
+            {
+              "href": "https://www.instagram.com/?hl=en",
+              "text": "Instagram",
+              "title": "Instagram page"
+            }
+          ],
+          "facebook": [
+            {
+              "href": "https://www.facebook.com/ZenevaKraljevo",
+              "text": "Facebook",
+              "title": "Facebook page"
+            }
+          ],
+          "website": [
+            {
+              "href": "https://www.hotelzeneva.com/",
+              "text": "Website",
+              "title": "Website"
+            }
+          ]
+        }
+      ],
+      "companyReviews": [
+        {
+          "socialName": "Facebook",
+          "ratingScore": "5/5",
+          "totalVotes": 7,
+          "socialLink": "https://www.facebook.com/ZenevaKraljevo/reviews"
+        },
+        {
+          "socialName": "PanPlus",
+          "ratingScore": "5/5",
+          "totalVotes": 1,
+          "socialLink": "https://www.planplus.rs/restoran-zeneva/9141"
+        }
+      ],
+      "addReview": [
+        {
+          "totalAppReviews": 10,
+          "viewAppReviews": [
+            {
+              "text": "Show reviews",
+              "href": "#"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "reviews": [
+    {
+      "id": 1,
+      "name": "1",
+      "email": "1",
+      "phone": "1",
+      "address": "1",
+      "review": "1",
+      "power": "1"
+    },
+    {
+      "id": 2,
+      "name": "Nikola",
+      "email": "mojemail@gmail.com",
+      "phone": "111 222 33 44",
+      "address": "Adresa 59",
+      "review": "Komentar",
+      "power": "",
+      "gender": "Male",
+      "education": true
+    },
+    {
+      "id": 3,
+      "name": "Nikola",
+      "email": "mojemail@gmail.com",
+      "phone": "999 222 31 23",
+      "address": "Adresa 592",
+      "review": "Review",
+      "gender": "Male",
+      "education": true
+    },
+    {
+      "id": 4,
+      "name": "Nikola",
+      "email": "mojemai23l@gmail.com",
+      "phone": "222 331 24 52",
+      "address": "Adresa 24",
+      "review": "Review 2415",
+      "gender": "Male",
+      "education": true
+    },
+    {
+      "id": 5,
+      "name": "Nikola",
+      "email": "mojemail@gmail.com",
+      "phone": "111 111 11 11",
+      "address": "Adresa 242",
+      "review": "Komentar 1111111111113",
+      "gender": "Female",
+      "education": true
+    },
+    {
+      "id": 6,
+      "name": "Nikola",
+      "email": "mojemail@gmail.com",
+      "phone": "111 111 11 11",
+      "address": "ccc",
+      "review": "qqq",
+      "gender": "Female",
+      "education": ""
+    }
+  ]
+}

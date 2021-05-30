@@ -1,0 +1,35 @@
+<div class="div-1">
+    <h3>Reviews</h3>
+    <div class="row">
+        <div class="col">
+            <a href="#">{{ appReview[0].addReview[0].totalAppReviews }} app reviews</a> /
+            <a [href]="appReview[0].addReview[0].viewAppReviews[0].href">{{ appReview[0].addReview[0].viewAppReviews[0].text }}</a>
+        </div>
+        <div class="col">
+            <app-upload-review></app-upload-review>		
+            <a (click)="handleClick(modal.style.display='block')" class="btn btn-secondary">Add a photo</a>
+        </div>
+    </div>
+</div>
+
+
+
+<div #modal class="modal-bg">
+        <div class="modal">
+            <a (click)="handleClick(modal.style.display='none')" class="btn btn-close">&times;</a>
+            <h2>Add a photo</h2>
+                <form action="" method="post">
+                    <div class="mb-3">
+                        <input class="form-control" type="text" name="name" placeholder="Your fullname...">
+                    </div>
+                    <div class="mb-3">
+                        <input class="form-control" type="text" name="email" placeholder="Your Email...">
+                        <small class="form-text text-muted">Please enter valid email adress</small>
+                    </div>
+                    <div class="mb-3">
+                        <input type="file" id="myFile" name="filename">
+                    </div>
+                    <button class="btn btn-primary" type="submit" name="submit">Add photo &#10003;</button>
+                </form>
+        </div>
+</div>

@@ -1,0 +1,122 @@
+@media screen and (max-width: 339px){
+    .social-text {
+        display: none;
+    }
+
+    .info {
+        width: 150% !important;
+    }
+
+    .social-nets {
+        float: right;
+    }
+
+    .social-icon {
+        font-size: 27px !important;
+        margin-right: 0px !important;
+    }
+
+    .list-item-2 {
+        padding: 9px;
+        background: #e9e9e9;
+        border-radius: 10px;
+        margin: 8px 0px;
+        text-align: center;
+        width: 50px;
+    }
+
+    .phone {
+        width: 50px !important;
+    }
+}
+
+.div-3 {
+    border-bottom: 1px solid #007bff;
+    padding: 10px;
+}
+
+.pictures {
+    width: 100%;
+    height: 120px;
+    background: rgb(233, 233, 233);
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.picture-1 {
+    height: 100%;
+    border-radius: 10px;
+    width: 39%;
+}
+
+.picture-2 {
+    width: 59%;
+    height: 100%;
+    border-radius: 10px;
+    float: right;
+}
+
+.ocene {
+    padding: 10px 0px;
+}
+
+.ocene a {
+    margin-left: 10px;
+}
+
+a {
+    color: #007bff i !important;
+    font-size: 18px;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+
+.list-item {
+    margin: 5px 0px;
+}
+
+.list-item-2 {
+    padding: 9px;
+    background: rgb(233, 233, 233);
+    border-radius: 10px;
+    margin: 9px 0px;
+}
+
+.list-item-2:hover {
+    box-shadow: 0px 0px 5px;
+    transition: 400ms;
+}
+
+.social-icon {
+    font-size: 25px;
+    margin-right: 10px;
+}
+
+.social-text {
+    position: absolute;
+    margin-top: 5.5px;
+}
+
+.phone-text {
+    position: absolute;
+    margin-top: 5.5px;  
+}
+
+.phone {
+    text-align: -webkit-left;
+    width: 100px;
+    border-radius: 10px;
+}
+
+.icon {
+    font-size: 25px;
+    margin-right: 10px;
+}
+
+.info {
+    width: 110%;
+    margin-top: 7px;
+}

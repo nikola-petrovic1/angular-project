@@ -1,0 +1,14 @@
+<div class="div-2">
+    <h3>Reviews from web:</h3>
+    <div class="row">
+                    <div class="col" *ngFor="let companyReviews of company[0].companyReviews">
+                        <a class="total-rating-link" [href]="companyReviews.socialLink">
+                            <ul class="navbar-nav total-rating">
+                                <li class="social">{{companyReviews.socialName}}</li>
+                                <li class="rating"><b>{{companyReviews.ratingScore}}</b></li>
+                                <li class="text-muted users">{{companyReviews.totalVotes}} votes</li>
+                            </ul>
+                        </a>
+                    </div>
+    </div>
+</div>
