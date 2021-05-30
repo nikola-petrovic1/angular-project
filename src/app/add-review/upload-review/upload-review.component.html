@@ -90,7 +90,7 @@
             <fieldset class="form-control education" id="education">
               <div *ngFor="let education of educations;">
               <input name="education" type="checkbox" [value]="education"
-              (ngModel)="model.education" #education="ngModel">
+              [(ngModel)]="model.education" #education="ngModel">
                 <label for="education">{{ education }}</label>
               </div>
             </fieldset>
